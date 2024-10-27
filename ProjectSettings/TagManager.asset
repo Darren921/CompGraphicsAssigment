@@ -10,7 +10,6 @@ TagManager:
   - CodeSpawnPoints
   - hidingSpot
   - CodePanel
-  - LightingChange
   layers:
   - Default
   - TransparentFX
