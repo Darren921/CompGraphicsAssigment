@@ -10,11 +10,11 @@ Shader "Custom/URP_TextureWithBlendingModes"
 	{
 	Tags { "RenderPipeline" = "UniversalRenderPipeline" "Queue" = "Transparent" "RenderType" = "Transparent" }
 	// Uncomment the blending mode you want to use:
-	Alpha blending (default):
-	// Blend SrcAlpha OneMinusSrcAlpha
+	// Alpha blending (default):
+	   Blend SrcAlpha OneMinusSrcAlpha
 	// Additive blending:
-	Blend One One
-	//Multiplicative blending:
+	// Blend One One
+	// Multiplicative blending:
 	// Blend DstColor Zero
 	Pass
 	{
