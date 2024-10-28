@@ -21,7 +21,7 @@ public class ColorGradingSwap : MonoBehaviour
       if(Input.GetKeyDown(KeyCode.Alpha4))SwapColorGradingCool();
       if(Input.GetKeyDown(KeyCode.Alpha5))SwapColorGradingWarm();
       if(Input.GetKeyDown(KeyCode.Alpha6))SwapColorGradingCustom();
-      if(Input.GetKeyDown(KeyCode.Alpha7))SwapColorGradingNone();
+      if(Input.GetKeyDown(KeyCode.Alpha0))SwapColorGradingNone();
 
    }
 
