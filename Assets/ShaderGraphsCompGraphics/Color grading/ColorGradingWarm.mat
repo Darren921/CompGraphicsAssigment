@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LUT:
-        m_Texture: {fileID: 2800000, guid: 76e968d59481cac4f9a9b3dcf071bcd4, type: 3}
+        m_Texture: {fileID: 2800000, guid: f1981aec516498343bffa9a543a23998, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -92,7 +92,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Contribution: 0.4
+    - _Contribution: 0.695
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
