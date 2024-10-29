@@ -23,3 +23,13 @@ The Inverted Hull outline was referenced from this video(https://www.youtube.com
 
 ![Monstershader-ezgif com-optimize](https://github.com/user-attachments/assets/325bb0e6-57b0-40b8-86eb-82bdb832081a)
 
+![Lightingingame-ezgif com-optimize](https://github.com/user-attachments/assets/0d4dc0e9-503e-48c9-b23f-ccc89fac1e26)
+
+![monster with shader](https://github.com/user-attachments/assets/e867c59d-ebd1-4fca-9a81-eb6d378df2d4)
+
+![sign with shader](https://github.com/user-attachments/assets/b7aa1ff0-751c-4a27-ab3a-465f68425a1e)
+
+![Rocks with shader](https://github.com/user-attachments/assets/dafe8b9f-325c-4c85-b08c-4865137768be)
+
+
+
