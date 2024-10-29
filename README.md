@@ -21,4 +21,5 @@ The Inverted Hull outline was referenced from this video(https://www.youtube.com
 
 ![Base game](https://github.com/user-attachments/assets/25751c0a-45f1-412a-bcb1-7b0a5647f4d3)
 
-![FOR LUT](https://github.com/user-attachments/assets/adc08ef6-36fe-4ddc-a168-df5c2f838694)
+![Monstershader-ezgif com-optimize](https://github.com/user-attachments/assets/325bb0e6-57b0-40b8-86eb-82bdb832081a)
+
