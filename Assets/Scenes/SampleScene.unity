@@ -22109,7 +22109,7 @@ PrefabInstance:
     - target: {fileID: 80624499025873263, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
       propertyPath: m_Name
-      value: Mons
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 80624499025873263, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
@@ -22199,7 +22199,7 @@ PrefabInstance:
     - target: {fileID: 3632235449257393769, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
       propertyPath: m_Name
-      value: Mons
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3632235449257393769, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
@@ -22224,7 +22224,7 @@ PrefabInstance:
     - target: {fileID: 4047372238795093259, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
       propertyPath: m_Name
-      value: Mons
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4047372238795093259, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
@@ -22279,7 +22279,7 @@ PrefabInstance:
     - target: {fileID: 8885309868309554333, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
       propertyPath: m_Name
-      value: Mons
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8885309868309554333, guid: be7e4b9c7ef87c74badc739ef790be03,
         type: 3}
