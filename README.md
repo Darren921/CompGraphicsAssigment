@@ -17,4 +17,6 @@ Toon shader was implemented on the trees of the scene to change the graphical fe
 
 Bump mapping was implemented on the rock of the scene to help the player have a landmark that stands out, and since it looked out of place at first I blended it with a toon shader to make it look less jarring and also added a value of the strength of the bump mapping for it to adjust as needed.
 
-The Inverted Hull outline was referenced from this video(https://www.youtube.com/watch?v=vje0x1BNpp8&t=58s) and creates an outline that is separate from the object and doesn't render front faces this is beneficial as it doesn't suffer from the less visible outline that the rim lighting. Also, I added a texture and emission to highlight the outline generated.   
+The Inverted Hull outline was referenced from this video(https://www.youtube.com/watch?v=vje0x1BNpp8&t=58s) and creates an outline that is separate from the object and doesn't render front faces this is beneficial as it doesn't suffer from the less visible outline that the rim lighting. Also, I added a texture and emission to highlight the outline generated.  
+
+![Base game](https://github.com/user-attachments/assets/25751c0a-45f1-412a-bcb1-7b0a5647f4d3)
