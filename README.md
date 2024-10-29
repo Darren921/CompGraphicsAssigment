@@ -17,4 +17,19 @@ Toon shader was implemented on the trees of the scene to change the graphical fe
 
 Bump mapping was implemented on the rock of the scene to help the player have a landmark that stands out, and since it looked out of place at first I blended it with a toon shader to make it look less jarring and also added a value of the strength of the bump mapping for it to adjust as needed.
 
-The Inverted Hull outline was referenced from this video(https://www.youtube.com/watch?v=vje0x1BNpp8&t=58s) and creates an outline that is separate from the object and doesn't render front faces this is beneficial as it doesn't suffer from the less visible outline that the rim lighting. Also, I added a texture and emission to highlight the outline generated.   
+The Inverted Hull outline was referenced from this video(https://www.youtube.com/watch?v=vje0x1BNpp8&t=58s) and creates an outline that is separate from the object and doesn't render front faces this is beneficial as it doesn't suffer from the less visible outline that the rim lighting. Also, I added a texture and emission to highlight the outline generated.  
+
+![Base game](https://github.com/user-attachments/assets/25751c0a-45f1-412a-bcb1-7b0a5647f4d3)
+
+![Monstershader-ezgif com-optimize](https://github.com/user-attachments/assets/325bb0e6-57b0-40b8-86eb-82bdb832081a)
+
+![Lightingingame-ezgif com-optimize](https://github.com/user-attachments/assets/0d4dc0e9-503e-48c9-b23f-ccc89fac1e26)
+
+![monster with shader](https://github.com/user-attachments/assets/e867c59d-ebd1-4fca-9a81-eb6d378df2d4)
+
+![sign with shader](https://github.com/user-attachments/assets/b7aa1ff0-751c-4a27-ab3a-465f68425a1e)
+
+![Rocks with shader](https://github.com/user-attachments/assets/dafe8b9f-325c-4c85-b08c-4865137768be)
+
+
+
