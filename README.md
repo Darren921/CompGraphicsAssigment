@@ -20,3 +20,5 @@ Bump mapping was implemented on the rock of the scene to help the player have a 
 The Inverted Hull outline was referenced from this video(https://www.youtube.com/watch?v=vje0x1BNpp8&t=58s) and creates an outline that is separate from the object and doesn't render front faces this is beneficial as it doesn't suffer from the less visible outline that the rim lighting. Also, I added a texture and emission to highlight the outline generated.  
 
 ![Base game](https://github.com/user-attachments/assets/25751c0a-45f1-412a-bcb1-7b0a5647f4d3)
+
+![FOR LUT](https://github.com/user-attachments/assets/adc08ef6-36fe-4ddc-a168-df5c2f838694)
