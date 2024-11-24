@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Glass Variant
+  m_Name: Glass Variant 1 Variant
   m_Shader: {fileID: -6465566751694194690, guid: 185e01c3c1f30744294030e83fe87048,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: bd07a95792185974182a321794c7d5e6, type: 2}
+  m_Parent: {fileID: 2100000, guid: fa95b861256d8944f9f05a81ff5b28ab, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -26,10 +26,13 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Min_distance: 60
-    m_Colors: []
+    - _RefractionStrength: 0.011
+    m_Colors:
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tiling: {r: 2.65, g: 0.08, b: 0, a: 0}
+    - _TintColor: {r: 0.6132076, g: 0.12781948, b: 0.12437701, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &3112070436922079732
+--- !u!114 &3297411124848241289
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

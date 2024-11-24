@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd8c587-12c0-4d0b-89eb-34683d1512b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Hidingspot/Shed.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hidingspot/Shed.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PS1 filter/View.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PS1 filter/View.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rock/Rocks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rock/Rocks.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1 Variant.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1 Variant.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/distanceCheck.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/distanceCheck.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/DiffuseAndAmb.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/DiffuseAndAmb.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Normal.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Normal.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wall/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wall/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/GameObject (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tree/Other trees/GameObject (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/GameObject (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/GameObject (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/WoodTex.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tree/Other trees/WoodTex.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Unity",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Unity&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.45f1\Editor\Unity.exe" />
@@ -103,6 +109,11 @@
       <workItem from="1731528945808" duration="1438000" />
       <workItem from="1731704430745" duration="1568000" />
       <workItem from="1732158316607" duration="645000" />
+      <workItem from="1732314003354" duration="58000" />
+      <workItem from="1732314076628" duration="1739000" />
+      <workItem from="1732400426581" duration="837000" />
+      <workItem from="1732401305844" duration="699000" />
+      <workItem from="1732402658815" duration="2965000" />
     </task>
     <servers />
   </component>
@@ -117,7 +128,6 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
