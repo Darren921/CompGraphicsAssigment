@@ -718,7 +718,7 @@
         "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"d622f2d56e911df4280209110fa22fa4\",\"type\":3}}",
         "m_Guid": ""
     },
-    "isMainTexture": false,
+    "isMainTexture": true,
     "useTilingAndOffset": false,
     "m_Modifiable": true,
     "m_DefaultType": 0
@@ -802,10 +802,10 @@
     "m_Guid": {
         "m_GuidSerialized": "0b9ac4b8-b5bf-4702-b403-5e2316351045"
     },
-    "m_Name": "Texture2D",
+    "m_Name": "SecondTex",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Texture2D",
-    "m_DefaultReferenceName": "_Texture2D",
+    "m_RefNameGeneratedByDisplayName": "SecondTex",
+    "m_DefaultReferenceName": "_SecondTex",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1090,7 +1090,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "7b727b84642248cd8d3771c20af3ef73",
     "m_Id": 0,
-    "m_DisplayName": "Texture2D",
+    "m_DisplayName": "SecondTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1836,10 +1836,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1617.60009765625,
-            "y": 316.00006103515627,
-            "width": 138.39990234375,
-            "height": 33.599945068359378
+            "x": -1620.0,
+            "y": 316.0,
+            "width": 143.0,
+            "height": 34.0
         }
     },
     "m_Slots": [

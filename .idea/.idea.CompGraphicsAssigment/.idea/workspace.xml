@@ -5,26 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd8c587-12c0-4d0b-89eb-34683d1512b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1 Variant.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1 Variant.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/distanceCheck.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/distanceCheck.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rock/Rocks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rock/Rocks.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending/Blending.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending/Blending.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass Variant.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/MonsterDiffuse.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/MonsterDiffuse.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/diffuseTree.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/diffuseTree.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/DiffuseAndAmb.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/DiffuseAndAmb.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/GameObject (1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/GameObject (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Normal.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Normal.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Specluar.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Specluar.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ToonShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ToonShader.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ambient/DiffuseAndAmbMon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ambient/DiffuseAndAmbMon.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/WoodTex.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tree/Other trees/WoodTex.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Lab-Equipment-Game/Assets/Scripts/Player and Controls/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.11/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -114,6 +113,9 @@
       <workItem from="1732400426581" duration="837000" />
       <workItem from="1732401305844" duration="699000" />
       <workItem from="1732402658815" duration="2965000" />
+      <workItem from="1732409503541" duration="23000" />
+      <workItem from="1732409540356" duration="302000" />
+      <workItem from="1732409853285" duration="5025000" />
     </task>
     <servers />
   </component>
@@ -129,5 +131,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs</url>
+          <line>76</line>
+          <properties documentPath="C:\Users\kevin\Desktop\Unity project\CompGraphicsAssigment\Assets\Scripts\TextureSwitch.cs" containingFunctionPresentation="Method 'DisableMaterial'">
+            <startOffsets>
+              <option value="2945" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2989" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
