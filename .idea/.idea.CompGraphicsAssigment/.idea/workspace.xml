@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd8c587-12c0-4d0b-89eb-34683d1512b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rock/Rocks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rock/Rocks.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending/Blending.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending/Blending.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/MonsterDiffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/MonsterDiffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/diffuseTree.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/diffuseTree.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/DiffuseAndAmb.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/DiffuseAndAmb.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Glass.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Normal.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Normal.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Specluar.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Specluar.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ToonShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ToonShader.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ambient/DiffuseAndAmbMon.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/ambient/DiffuseAndAmbMon.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/WoodTex.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tree/Other trees/WoodTex.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water/Water.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water/Water.shadergraph" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +98,7 @@
       <workItem from="1732409503541" duration="23000" />
       <workItem from="1732409540356" duration="302000" />
       <workItem from="1732409853285" duration="5025000" />
+      <workItem from="1732548747482" duration="57000" />
     </task>
     <servers />
   </component>
