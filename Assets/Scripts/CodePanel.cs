@@ -30,6 +30,8 @@ public class CodePanel : MonoBehaviour
     [SerializeField] TMP_Text Board3;
     [SerializeField] TMP_Text Board4;
     [SerializeField]CinemachineInputProvider inputProvider;
+    private bool allCorrect;
+
     void Start()
     {
         //Placing generated numbers on signs 
@@ -132,11 +134,17 @@ public class CodePanel : MonoBehaviour
     void Update()
     {
         //Opening exit door if correct input is given 
-       
-       
-     
-        
 
+
+        if (digit1Correct && digit2Correct && digit3Correct && digit4Correct)
+        {
+            allCorrect = true;
+            foreach (var item in CodePanels)
+            {
+                item.SetActive(false);
+            }
+            exitBarrier.SetActive(false);
+        }
     }
 
     public void OpenCloseCodePanel()
@@ -145,8 +153,9 @@ public class CodePanel : MonoBehaviour
         {
             isClicked = true;
             print(true);
-            if (inArea && isClicked)
+            if (inArea && isClicked && !allCorrect)
             {
+                
                 inputProvider.enabled = false;
 
                 foreach (var item in CodePanels)

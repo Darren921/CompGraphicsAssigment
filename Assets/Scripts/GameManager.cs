@@ -40,9 +40,11 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<Player>();
         
         codePanel = FindObjectOfType<CodePanel>();
+        
         for (int j = 0; j < 4; j++) 
         {
-            comboNums.Add(Random.Range(0,9));
+            //comboNums.Add(Random.Range(0,9));
+            comboNums.Add(j);
         }
       
         foreach(int values in comboNums)

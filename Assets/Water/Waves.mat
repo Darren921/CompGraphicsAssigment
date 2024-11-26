@@ -41,6 +41,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: c1a9ce60541fe77419a0b2917c8aa40c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: c1a9ce60541fe77419a0b2917c8aa40c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _blendTexture:
+        m_Texture: {fileID: 2800000, guid: d622f2d56e911df4280209110fa22fa4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalTexure:
+        m_Texture: {fileID: 2800000, guid: 9a8b6bd337cefb64b9acc806452007cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texture:
         m_Texture: {fileID: 2800000, guid: d622f2d56e911df4280209110fa22fa4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -59,11 +71,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Normal_Strength: 4.95
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Strength: 4
     - _Wave_speed: 1
     - _Wave_strength: 0.5
     m_Colors:
     - _BaseColor: {r: 0, g: 0.37794995, b: 1, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 10, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -8,10 +8,11 @@ public class TextureSwitch : MonoBehaviour
     private Material curTexture;
     [SerializeField] private GameObject[] texturesGameObjects;
     [SerializeField] private  Texture[] texturesMaterials;
-    private List<float> NormalStrength = new List<float>();
+   [SerializeField] private List<float> NormalStrength = new List<float>();
     [SerializeField]Terrain terrain;
-
+    [SerializeField]GameObject[] water;
     private float terrainNorm;
+    private float WaterNorm;
 
     // Start is called before the first frame update
     void Start()
@@ -19,42 +20,63 @@ public class TextureSwitch : MonoBehaviour
         texturesGameObjects =  GameObject.FindGameObjectsWithTag("LightingChange");
         foreach (GameObject obj in texturesGameObjects)
         {
-            NormalStrength.Add(obj.GetComponent<Renderer>().material.GetFloat("_Normal_Strength"));
+            if (obj.GetComponent<Renderer>().material.HasFloat("_Normal_Strength"))
+            {
+                NormalStrength.Add(obj.GetComponent<Renderer>().material.GetFloat("_Normal_Strength"));
+            }
         }  
         terrainNorm = terrain.materialTemplate.GetFloat("_Normal_Strength");
+        foreach (GameObject obj in water)
+        {
+            WaterNorm =  obj.GetComponent<Renderer>().material.GetFloat("_Normal_Strength");
+        }
     }
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha7))
         {
-            for (int i = 0; i < texturesGameObjects.Length; i++)
+            foreach (var obj in texturesGameObjects)
             {
-                if (texturesGameObjects[i].name.Contains("Wall"))
+                if (obj.name.Contains("Wall"))
                 {
-                    texturesGameObjects[i].GetComponent<Renderer>().material.mainTexture = texturesMaterials[0];
+                    obj.GetComponent<Renderer>().material.mainTexture = texturesMaterials[0];
                 }
-                else if (texturesGameObjects[i].name.Contains("Rock"))
+                else if (obj.name.Contains("Rock"))
                 {
-                    texturesGameObjects[i].GetComponent<Renderer>().material.mainTexture = texturesMaterials[1];
+                    obj.GetComponent<Renderer>().material.mainTexture = texturesMaterials[1];
                 }
-                else if (texturesGameObjects[i].name.Contains("Cube"))
+                else if (obj.name.Contains("Cube") || obj.name.Contains("Cube"))
                 {
-                    texturesGameObjects[i].GetComponent<Renderer>().material.mainTexture = texturesMaterials[2];
+                    obj.GetComponent<Renderer>().material.mainTexture = texturesMaterials[2];
                 }
-                else if (texturesGameObjects[i].name.Contains("New monster"))
+                else if (obj.name.Contains("New monster"))
                 {
-                    texturesGameObjects[i].GetComponent<Renderer>().material.mainTexture = texturesMaterials[3];
-                    var list = texturesGameObjects[i].GetComponent<Renderer>().material.GetTexture("_SecondTex");
+                    obj.GetComponent<Renderer>().material.mainTexture = texturesMaterials[3];
+                    var list = obj.GetComponent<Renderer>().material.GetTexture("_SecondTex");
                     list = texturesMaterials[4];
                 }
-              
+                else if (obj.name.Contains("Water"))
+                {
+                    obj.GetComponent<Renderer>().material.mainTexture = texturesMaterials[3];
+
+                    obj.GetComponent<Renderer>().material.mainTexture = texturesMaterials[6];
+                }
+
                 terrain.materialTemplate.mainTexture = texturesMaterials[5];
             }
 
             for (int i = 0; i < texturesGameObjects.Length; i++)
             {
-                texturesGameObjects[i].GetComponent<Renderer>().material.SetFloat("_Normal_Strength",NormalStrength[i]);
+                if (texturesGameObjects[i].GetComponent<Renderer>().material.HasFloat("NormalStrength"))
+                {
+                    texturesGameObjects[i].GetComponent<Renderer>().material.SetFloat("_Normal_Strength",NormalStrength[i]);
+                }
+            }
+
+            foreach (GameObject obj in water)
+            {
+                obj.GetComponent<Renderer>().material.SetFloat("_Normal_Strength",WaterNorm);
             }
             terrain.materialTemplate.SetFloat("_Normal_Strength",terrainNorm);
  
@@ -71,10 +93,10 @@ public class TextureSwitch : MonoBehaviour
         for (int i = 0; i < texturesGameObjects.Length; i++)
         {
             texturesGameObjects[i].GetComponent<Renderer>().material.mainTexture = null;
-            texturesGameObjects[i].GetComponent<Renderer>().material.SetFloat("_Normal_Strength", 0.1f);
+            texturesGameObjects[i].GetComponent<Renderer>().material.SetFloat("_Normal_Strength", 0f);
         }
 
         terrain.materialTemplate.mainTexture = null;
-        terrain.materialTemplate.SetFloat("_Normal_Strength",0.1f);
+        terrain.materialTemplate.SetFloat("_Normal_Strength",0f);
     }
 }

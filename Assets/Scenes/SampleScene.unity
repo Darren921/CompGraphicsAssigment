@@ -6251,12 +6251,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 23a243f5c01cd214599223dfd2142410, type: 2}
+      objectReference: {fileID: 2100000, guid: 403290009b881fd4cae7448a04082be7, type: 2}
     - target: {fileID: -4683669308469848369, guid: 40d90002c4226674990c6f152437aed3,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 403290009b881fd4cae7448a04082be7, type: 2}
+      objectReference: {fileID: 2100000, guid: 23a243f5c01cd214599223dfd2142410, type: 2}
     - target: {fileID: 919132149155446097, guid: 40d90002c4226674990c6f152437aed3,
         type: 3}
       propertyPath: m_Name
@@ -10400,7 +10400,12 @@ MonoBehaviour:
   - {fileID: 2800000, guid: d622f2d56e911df4280209110fa22fa4, type: 3}
   - {fileID: 2800000, guid: 0ef485b51a1deef449e0a2d7457b0630, type: 3}
   - {fileID: 2800000, guid: 4774ccc09eec5c8468aa4ea2c1b5dcb7, type: 3}
+  - {fileID: 2800000, guid: c1a9ce60541fe77419a0b2917c8aa40c, type: 3}
+  NormalStrength: []
   terrain: {fileID: 84860801}
+  water:
+  - {fileID: 1737419517}
+  - {fileID: 824182912}
 --- !u!1001 &742679355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11328,7 +11333,7 @@ GameObject:
   - component: {fileID: 824182914}
   m_Layer: 0
   m_Name: Water (1)
-  m_TagString: Untagged
+  m_TagString: LightingChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14007,7 +14012,7 @@ GameObject:
   - component: {fileID: 1003104926}
   m_Layer: 0
   m_Name: plank
-  m_TagString: Untagged
+  m_TagString: LightingChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23847,7 +23852,7 @@ GameObject:
   - component: {fileID: 1737419518}
   m_Layer: 0
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: LightingChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

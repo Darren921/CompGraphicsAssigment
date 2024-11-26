@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd8c587-12c0-4d0b-89eb-34683d1512b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Blending.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CodePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CodePanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Water/Water.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water/Water.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water/Waves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water/Waves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Shaders/Unlit.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.11/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -99,6 +107,8 @@
       <workItem from="1732409540356" duration="302000" />
       <workItem from="1732409853285" duration="5025000" />
       <workItem from="1732548747482" duration="57000" />
+      <workItem from="1732642994500" duration="345000" />
+      <workItem from="1732643356788" duration="3026000" />
     </task>
     <servers />
   </component>
@@ -119,17 +129,56 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs</url>
-          <line>76</line>
-          <properties documentPath="C:\Users\kevin\Desktop\Unity project\CompGraphicsAssigment\Assets\Scripts\TextureSwitch.cs" containingFunctionPresentation="Method 'DisableMaterial'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/CodePanel.cs</url>
+          <line>323</line>
+          <properties documentPath="C:\Users\kevin\Desktop\Unity project\CompGraphicsAssigment\Assets\Scripts\CodePanel.cs" containingFunctionPresentation="Method 'EnterCode'">
             <startOffsets>
-              <option value="2945" />
+              <option value="7837" />
             </startOffsets>
             <endOffsets>
-              <option value="2989" />
+              <option value="7859" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs</url>
+          <line>19</line>
+          <properties documentPath="C:\Users\kevin\Desktop\Unity project\CompGraphicsAssigment\Assets\Scripts\TextureSwitch.cs" containingFunctionPresentation="Method 'Start'">
+            <startOffsets>
+              <option value="607" />
+            </startOffsets>
+            <endOffsets>
+              <option value="682" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs</url>
+          <line>65</line>
+          <properties documentPath="C:\Users\kevin\Desktop\Unity project\CompGraphicsAssigment\Assets\Scripts\TextureSwitch.cs" containingFunctionPresentation="Method 'Update'">
+            <startOffsets>
+              <option value="2599" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2659" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs</url>
+          <line>92</line>
+          <properties documentPath="C:\Users\kevin\Desktop\Unity project\CompGraphicsAssigment\Assets\Scripts\TextureSwitch.cs" containingFunctionPresentation="Method 'DisableMaterial'">
+            <startOffsets>
+              <option value="3448" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3500" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
