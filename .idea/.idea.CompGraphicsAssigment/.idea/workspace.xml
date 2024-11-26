@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd8c587-12c0-4d0b-89eb-34683d1512b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompGraphicsAssigment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CodePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CodePanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextureSwitch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShaderGraphsCompGraphics/Diffuse/GroundDiffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Water/Water.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water/Water.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Water/Waves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water/Waves.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tree/Other trees/tree.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="6dd8c587-12c0-4d0b-89eb-34683d1512b2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +98,7 @@
       <workItem from="1732409853285" duration="5025000" />
       <workItem from="1732548747482" duration="57000" />
       <workItem from="1732642994500" duration="345000" />
-      <workItem from="1732643356788" duration="3026000" />
+      <workItem from="1732643356788" duration="3679000" />
     </task>
     <servers />
   </component>
