@@ -58,6 +58,22 @@ FOV-For the Final effect we added a Fov type effect to mimic the screen effect o
 
 ![Rocks with shader](https://github.com/user-attachments/assets/dafe8b9f-325c-4c85-b08c-4865137768be)
 
+**Course project**
+
+![textures](https://github.com/user-attachments/assets/bbc0b48a-5afd-48e4-bd80-9c6be5164786)
+
+![normal mapping](https://github.com/user-attachments/assets/28a63f0f-df09-4813-9bfe-568b10e20f8b)
+
+![decal](https://github.com/user-attachments/assets/0fea758a-3dac-4cee-84d2-2e411b34ead1)
+
+![shedingame-ezgif com-optimize](https://github.com/user-attachments/assets/d02ea890-d8a0-43fb-8346-3c74ac26fd24)
+
+![wavesingame-ezgif com-optimize](https://github.com/user-attachments/assets/7272f68d-03d8-49cd-bc30-50865ab9399a)
+
+![Screenshot 2024-11-26 182715](https://github.com/user-attachments/assets/975f31e5-1eb3-46f3-baaf-4515a44a149f)
+
+
+
 
 
 
