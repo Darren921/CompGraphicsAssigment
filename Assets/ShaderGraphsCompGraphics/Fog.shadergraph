@@ -14,9 +14,6 @@
         },
         {
             "m_Id": "cbb0db11f175488ba1769af7896ba14e"
-        },
-        {
-            "m_Id": "23f998e5ca1b4035abb21f5911e7649a"
         }
     ],
     "m_Keywords": [],
@@ -304,34 +301,6 @@
 }
 
 {
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "23f998e5ca1b4035abb21f5911e7649a",
-    "m_Guid": {
-        "m_GuidSerialized": "5f6289e4-b0e3-426e-8ca1-1798d6778514"
-    },
-    "m_Name": "Normal Strength",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Normal Strength",
-    "m_DefaultReferenceName": "_Normal_Strength",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 0.0,
-    "m_FloatType": 0,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 1.0
-    }
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "2ba24214477c442d9bcd9812998a7af1",
@@ -482,10 +451,10 @@
     "m_Guid": {
         "m_GuidSerialized": "40e82386-bfa6-4e46-a5ab-fac0c74fdd08"
     },
-    "m_Name": "Cutoff",
+    "m_Name": "Strength",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Cutoff",
-    "m_DefaultReferenceName": "_Cutoff",
+    "m_RefNameGeneratedByDisplayName": "Strength",
+    "m_DefaultReferenceName": "_Strength",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -846,7 +815,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "5a90a44b1b7b455c8a1e5b3b0d928f00",
     "m_Id": 0,
-    "m_DisplayName": "Cutoff",
+    "m_DisplayName": "Strength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1670,9 +1639,6 @@
         },
         {
             "m_Id": "cbb0db11f175488ba1769af7896ba14e"
-        },
-        {
-            "m_Id": "23f998e5ca1b4035abb21f5911e7649a"
         }
     ]
 }

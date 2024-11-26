@@ -50,6 +50,7 @@ Material:
     - _Normal_Strength: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Strength: 0.995
     m_Colors:
     - _MainColor: {r: 1, g: 0.1745283, b: 0.22231874, a: 0}
     - _Tiling: {r: 4, g: 4, b: 0, a: 0}
