@@ -19,6 +19,33 @@ Bump mapping was implemented on the rock of the scene to help the player have a 
 
 The Inverted Hull outline was referenced from this video(https://www.youtube.com/watch?v=vje0x1BNpp8&t=58s) and creates an outline that is separate from the object and doesn't render front faces this is beneficial as it doesn't suffer from the less visible outline that the rim lighting. Also, I added a texture and emission to highlight the outline generated.  
 
+**Course Project**
+
+improvements 
+-Added assets
+-Changed look
+- added textures to most objects
+- fixed bugs
+- Scene change to support lighting 
+- Complete switch to shader graph (not color grading)
+
+Textures
+
+Normal mapping-All relevant textures were given normal mapping, using the texture to normal node which auto creates a 2d sampler with a normal then we connect to to a normal strength node to adjust the look. Trees were disregarded with the express intent to not have the player distracted.
+Tiling and offset-In order to prevent completely stretching the texture all samplers have this node in order to place repeating uvs in place of having one texture stretching, especially for the terrain and the water.  
+
+Visual effects
+
+Decals-We used shader graph to make a decal effect that we used to add to the wall at the end when the player escapes. A decal is essentially a texture that you can add to other surfaces in this case we added it to a wall so rather than texturing the whole wall just so it can have this small detail we can add the texture and move it around as we wish. From the base shader graph we used we added threshold so that we can change the look of the texture by giving it a cutoff value that will help us tune it for the effect we want. To make this texture we started with a square base as it was easier to render for us, we first calculate the clip-space positions getting us the positions we need in the clip space. This texture also utilizes inverse view projection so that we can view things in world space more accurately. Using this we then calculate the world space positions that fixes our view on the texture in world view. Then we use transform so that its also viewable in object space, then we also make a bounding box to give the effect constraints. We finish up by adding the texture so we can add our texture in unity to finish up the look. For the threshold we just added a float to the alpha clip threshold so that we can then use a slider to help change the amount in unity. 
+
+Water-To make the water effect we used shader graph so we can have something the player can see as he leaves and walks across to the end. The water effect is just an object that is given vertex shader that will affect the object's vertices so that it will have a wave effect. We also added blend so that we can add another texture to the water to give us more unique look. To make this effect we need to be able to change the speed and strength of the water so we can choose how high and how fast we want the waves to move. Since this object will be moving we added a time node so that it will be continuously moving by multiplying it with the speed then adding it to the position. We then multiply it with the wave strength to give us an offset vector. Then get another position node for our object space so we can add it to the rest, finally adding an option to add in our textures. We also added the option to blend another texture using the blend node, this gave us a water effect that we were happy with.
+
+glass-We added glass on to a shed in order to create a temporary safe place that fades in and out in order to represent the instability of the area and to not directly clash with the visuals of the area. In order to create this we used a tutorial which displacement map and screen color to have the scene influence the color of the glass and to create the distortion effect, and a way to change the color of the tint, what we added was the distance influencing the alpha, using the glass’s position and camera distance subtracted by a minimum distance, it disappears when you are too far away and vice versa with the help of alpha clipping 
+
+FOV-For the Final effect we added a Fov type effect to mimic the screen effect of taking damage to have the blood moon effect to get players focused and to narrow the fov. This effect is created by creating a circle in using the uv then centering it and then applying the power equation to enlarge the circle and then lerping it between the complete white texture and the effect and saturating it to.
+
+
+
 ![Base game](https://github.com/user-attachments/assets/25751c0a-45f1-412a-bcb1-7b0a5647f4d3)
 
 ![Monstershader-ezgif com-optimize](https://github.com/user-attachments/assets/325bb0e6-57b0-40b8-86eb-82bdb832081a)
@@ -30,6 +57,8 @@ The Inverted Hull outline was referenced from this video(https://www.youtube.com
 ![sign with shader](https://github.com/user-attachments/assets/b7aa1ff0-751c-4a27-ab3a-465f68425a1e)
 
 ![Rocks with shader](https://github.com/user-attachments/assets/dafe8b9f-325c-4c85-b08c-4865137768be)
+
+
 
 
 
