@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fog1
+  m_Name: FOV
   m_Shader: {fileID: -6465566751694194690, guid: 91bf9f7988241dc4a8e44b423c42c7fc,
     type: 3}
   m_Parent: {fileID: 0}
